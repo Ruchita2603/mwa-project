@@ -1,0 +1,14 @@
+body{
+    background-color: antiquewhite;
+}
+
+.row{
+    /* flex-direction: row-reverse; */
+    /* flex-wrap:nowrap ; */
+    --bs-gutter-x: 0rem;
+}
+#cartTable{
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+}
