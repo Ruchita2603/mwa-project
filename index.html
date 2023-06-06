@@ -9,9 +9,9 @@
     <title>BookStore</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-          <a class="navbar-brand" href="index.html">BOOKSTORE</a>
+          <a class="navbar-brand" href="index.html">ANYBOOK</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -21,18 +21,33 @@
                 <a class="nav-link active" aria-current="page" href="index.html">Home</a>
               </li>
               <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="registration.php">Register</a>
+              </li>
+              <li class="nav-item">
                 <a class="nav-link" href="login.html">Login</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="Catalogue.html">Catalogue</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="Cart.html">Cart</a>
-              </li>
+            
           </div>
         </div>
-      </nav>
-   </div>
-                      
+      </nav> 
+      <div class="row">
+        <div class="col-3">
+          <ul id="list">
+            <li class="my-4 dept"><a href="Catalogue.html">CSBS</a></li>
+            <li class="my-4 dept"><a href="Catalogue.html">CSE</a></li>
+            <li class="my-4 dept"><a href="Catalogue.html">ECE</a></li>
+            <li class="my-4 dept"><a href="Catalogue.html">EEE</a></li>
+            <li class="my-4 dept"><a href="Catalogue.html">CIVIL</a></li>   
+          </ul>
+        </div>
+        <div class="col-9">
+          <div> <img src="dp.jpg" id="home-img"><h1>Welcome to ANYBOOK!</h1></div>
+        </div>
+      </div>
+    </div>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
