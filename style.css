@@ -1,3 +1,4 @@
+
 body{
     background-color: antiquewhite;
 }
@@ -7,8 +8,98 @@ body{
     /* flex-wrap:nowrap ; */
     --bs-gutter-x: 0rem;
 }
+
+
+
+/* HOME */
+.navbar-brand{
+    font-size: 30px;
+    font-weight:bold;
+}
+#list{
+   list-style: none;
+   /* padding-top: 50px;
+   padding-left: 30px;
+   padding-bottom: 170px;
+   padding-right:10px; */
+   border-right: 2px solid black;
+   border: 2px solid black;
+   margin-top: 80px;
+   margin-right: 150px;
+   
+}
+.list-c{
+    float: left;
+}
+li .dept{
+    text-decoration: none;
+    color: black;
+}
+#welcomediv{
+    color: black;
+    font-size: 50px;
+    font-weight: 500;
+    margin-top: 40px;
+    margin-left: 120px;
+    padding-left: 120px;
+}
+#home-img{
+    width:70%;   ;
+    /* margin-left:400px; */
+    margin-top:100px;
+    position: absolute;
+    top:9.8%;   
+    height:400px;
+}
+/* .col-8{
+    border:2px solid black;
+} */
+
+/* LOGIN */
+#frm{  
+    border: solid gray 1px;  
+    width:25%;  
+    border-radius: 2px;  
+    margin: 120px auto;  
+    background: white;  
+    padding: 50px;  
+}  
+#Loginbtn{  
+    color: #fff;  
+    background: #337ab7;  
+    padding: 7px;  
+    margin-left: 70%;
+}  
+
+
+/* CART */
 #cartTable{
     align-items: center;
     text-align: center;
     font-size: 20px;
+}
+/* #frm{  
+    border: solid gray 1px;  
+    width:25%;  
+    border-radius: 2px;  
+    margin: 120px auto;  
+    background: white;  
+    padding: 50px;  
+}   */
+#btn{  
+    color: #fff;     
+    background: #337ab7;  
+    padding: 7px;  
+    margin-left: 70%;  
+}  
+
+@media screen and (max-width:1120px){
+    #frm{   
+        width:50%; 
+}
+}
+@media screen and (max-width:930px) {
+    #list{
+        border: none;
+    }
 }
